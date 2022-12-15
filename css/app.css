@@ -1,0 +1,526 @@
+body {
+	background-color: #C3C2BC;
+}
+
+/*small only*/ 
+
+
+/*header*/
+.header {
+	padding: 1.5rem;
+	background-color: #3A362C;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	width: 100%;
+}
+
+.header li a {
+	color: #C2C8B9;
+	font-family: meno-display, serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.header li a:hover {
+	transition: all .2s;
+	text-decoration: underline;
+	background-color: #C2C8B9;
+	color: #3A362C;
+}
+
+/*
+.header button {
+	color: #C2C8B9;
+}
+*/
+
+/*small menu*/
+
+/*hero*/
+.hero {
+	margin-top: 4rem;
+}
+
+.hero h1 {
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #849173;
+	background-color: #1B2314;
+	text-align: center;
+	padding: 1rem;
+	position: absolute;
+  	top: 85%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	width: 100%;
+}
+
+/*bookings*/
+.bookings {
+	background-color: #3B452B;
+	padding-bottom: 5.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.bookings .booking-info {
+	margin-bottom: 1.5rem;
+	padding-top: 5.5rem;
+}
+
+.table th {
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #849173;
+	font-size: 2rem;
+}
+
+.bookings thead {
+	background-color: transparent;
+	border: 0;
+}
+
+.bookings input [type="text"] {
+	padding: 2rem;
+	color: #484236;
+}
+
+.bookings input [type="submit"] {
+	align-content: center;
+	color: #484236;
+	border-radius: 3rem;
+}
+
+.bookings .button {
+	background-color: #C3C2BC;
+	color: #484236;
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5rem;
+}
+
+.bookings h1{
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #C2C8B9;
+}
+
+.bookings p {
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 1.5rem;
+}
+
+/*overlay*/
+
+.reveal {
+	background-color: #1B2314;
+	border-radius: 2rem;
+	text-decoration: none;
+	max-width: 75%;
+	position: relative;
+	padding: 1.5rem;
+	outline: none;
+}
+
+.overlay h1{
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.overlay h2{
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+}
+
+/*
+.confirmation-overlay {
+	background-color: #1B2314;
+	border-radius: 1.5rem;
+	text-decoration: none;
+}
+
+.overlay h1{
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #ffffff;
+}
+
+.overlay h2{
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+}
+*/
+
+/*rentals*/
+
+.rentals {
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	margin: 3.5rem 0rem;
+}
+
+.rentals .rental-info {
+	margin-bottom: 1.5rem;
+}
+
+.rentals img {
+	border: 0.5rem solid #484236;
+	border-radius: 1rem;
+}
+
+.rentals h1 {
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #1B2314;
+}
+
+.rentals p {
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #484236;
+	font-size: 1.5rem;
+}
+
+/*
+.rentals a {
+	background-color: #3B452B ; 
+  	border: none;
+  	padding: 0.5rem 0.5rem;
+  	text-align: center;
+  	text-decoration: none;
+  	align-content: center;
+  	font-size: 1rem;
+  	border-radius: 1rem;
+  	color: #ffffff;
+}
+*/
+
+.rentals button {
+	text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5em;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #ffffff;
+    background-color: #3B452B;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: meno-display, serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.rentals button:hover {
+	background-color: #849173;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/*activities*/
+
+.activities {
+	background-color: #1B2314;
+	padding-top: 5.5rem;
+	padding-bottom: 5.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.activities img {
+	border-radius: 1rem;
+	border-top: 0.5rem solid #484236;
+	border-left: 0.5rem solid #484236;
+	border-right: 0.5rem solid #484236;
+	border-bottom: 0.5rem solid #484236;
+}
+
+.activities h1 {
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #849173;
+}
+
+.activities .activities-info p {
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 1.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.activities .cell p {
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-bottom: 2.5rem;
+}
+
+.activities h2 {
+	font-family: meno-display, serif;
+	font-weight: 900;
+	font-style: normal;
+	text-align: center;
+	font-size: 1.75rem;
+	background-color: #484236;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
+	margin-top: -1rem;
+	z-index: -1;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	color: #ffffff;
+}
+
+/*
+.activities h2:hover {
+	text-decoration: underline;
+}
+*/
+
+/*recovery*/
+
+.recovery {
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	margin: 3.5rem 0rem;
+}
+
+.recovery h1 {
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #1B2314;
+}
+
+.recovery p {
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #484236;
+	font-size: 1.5rem;
+}
+
+.recovery-info p {
+	margin-bottom: 1.5rem;
+}
+
+.recovery h2 {
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #1B2314;
+	font-size: 2rem;
+	margin-top: 0.5rem;
+}
+
+.recovery h2:hover {
+	text-decoration: underline;
+}
+
+/*
+.recovery button {
+	text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5em;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #ffffff;
+    background-color: #3B452B;
+    display: block;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    align-content: left;
+    font-size: 1.5rem;
+    font-family: meno-display, serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.recovery button:hover {
+	background-color: #849173;
+	color: #ffffff;
+	text-decoration: underline;
+}
+*/
+
+.recovery img {
+	border: 0.5rem solid #484236;
+	border-radius: 1rem;
+}
+
+.recovery .cell {
+	margin-bottom: 2rem;
+}
+
+/*reviews*/
+
+.review-info {
+	margin-bottom: 5rem;
+}
+
+.carousel {
+	background-color: #3B452B;
+	padding-top: 5rem;
+	padding-bottom: 7.5rem;
+}
+
+.carousel h1 {
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #C2C8B9;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.carousel p {
+	font-family: meno-display, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 1.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+/*footer*/
+
+/*
+.address li:hover{
+	text-decoration: underline;
+	background-color: #849173;
+	color: #484236;
+}
+*/
+
+.footer ul {
+	list-style: none;
+	font-family: meno-display, serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #c2c8b9;
+}
+
+.footer .address:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	padding: 2.5rem;
+	background-color: #3A362C;
+}
+
+.footer h2 {
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2rem;
+	color: #c2c8b9;
+}
+
+.footer mark {
+	background-color: #3A362C;
+	color: #c2c8b9;
+}
+
+.footer mark:hover {
+	text-decoration: underline;
+	background-color: #c2c8b9;
+	color: #3A362C;
+}
+
+/*
+.footer .socials li:hover {
+	text-decoration: underline;
+	background-color: #849173;
+	color: #484236;
+}
+
+.footer .company li:hover {
+	text-decoration: underline;
+	background-color: #849173;
+	color: #484236;
+}
+
+.footer .get-involved li:hover {
+	text-decoration: underline;
+	background-color: #849173;
+	color: #484236;
+}
+*/
+
+.footer hr {
+	height: 0.25rem;
+    background-color: #c2c8b9;
+    border: none;
+    width: 90%;
+}
+
+.footer .copyright li {
+	list-style: none;
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #c2c8b9;
+}
+
+.footer .copyright li:hover {
+	text-decoration: underline;
+}
+
+.footer .privacy-policy li {
+	list-style: none;
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #c2c8b9;
+}
+
+.footer .privacy-policy li:hover {
+	text-decoration: underline;
+}
+
+.footer .terms-and-conditions li {
+	list-style: none;
+	font-family: transat-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #c2c8b9;
+}
+
+.footer .terms-and-conditions li:hover {
+	text-decoration: underline;
+}

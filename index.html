@@ -1,0 +1,388 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Boutiqe Hotel</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.typekit.net/txn0iwf.css">
+    <script src="https://kit.fontawesome.com/a308af86a2.js" crossorigin="anonymous"></script>
+  </head>
+
+
+
+    <!-- place your code starting here -->
+    
+    <header>
+      <section class="header">
+        <div class="grid-x align-middle">
+          <div class="cell medium-2 small-2">
+            <a href="#" class="logo">
+  <body>
+              <img src="img/the explorer logo.svg" alt="explorer logo">
+            </a>
+          </div>
+          <div class="cell small-9 medium-9 text-right">
+            <ul class="menu align-right show-for-medium">
+              <li>
+                <a href="#bookaroomsection">Book a Room</a>
+              </li>
+              <li>
+                <a href="#rentalssection">Rentals</a>
+              </li>
+              <li>
+                <a href="#activitiesaroundtownsection">Activities Around Town</a>
+              </li>
+              <li>
+                <a href="#recoveryandrelaxationsection">Recovery and Relaxation</a>
+              </li>
+            </ul>
+            <!-- <button class="show-for-small-only">Menu</button> -->
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="hero">
+      <div>
+        <img data-interchange="[img/hero small.jpg, small][img/hero.jpg, medium]" alt="photo by tim-marshall on Unsplash, captioned 'eat. sleep. explore. repeat.'">
+        <h1>WELCOME TO THE EXPLORER!</h1>
+      </div>
+    </section>
+
+    <section class="bookings"id="bookaroomsection" data-magellan-target="bookaroomsection">
+      <div class="booking-info">
+        <h1>BOOK A ROOM</h1>
+        <p>we offer single and double bedded rooms. all rooms come with free wifi, a bathroom, toiletries, television with cable, a coffee maker, an ironing board, a hairdryer, a safe and extra towels. we have housekeeping come throughout the day to clean up the room for you so you can come back to a nice clean room and crash. check out available rates below!</p>
+      </div>
+      <div class="grid-container">
+        <table class="table">
+          <thead>
+            <tr class="grid-x">
+              <th class="cell small-6">Check in:
+                <input type="text" class="span2" value="" id="dpd1">
+              </th>
+              <th class="cell small-6">Check out:
+                <input type="text" class="span2" value="" id="dpd2">
+              </th>
+            </tr>
+            <tr class="grid-x">
+              <th class="cell">
+                <input type="submit" class="submit button radius small" value="Check Availability" data-open="confirmation-overlay">
+              </th>
+            </tr>        
+          </thead>
+        </table>
+      </section>
+
+      <section class="overlay">
+        <div id="confirmation-overlay" class="reveal" data-reveal>
+          <div class="grid-x">
+            <div class="cell medium-9">
+              <div class="overlay">
+                <h1>SUCCESS</h1>
+                <h2>you have booked a room from <span class="dpd1"></span> to <span class="dpd2"></span> .</h2>
+              </div>
+            </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+        </div>
+      </section>
+<!--
+      <section class="overlay">
+        <div id="confirmation-overlay" class="reveal" data-reveal>
+          <div class="grid-x">
+            <div class="cell medium-9">
+              <div class="overlay">
+                <h1>SUCCESS</h1>
+                <h2>you have booked a room from <span class="dpd1"></span> to <span class="dpd2"></span> .</h2>
+              </div>
+            </div>
+          </div>
+          <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+        </div>
+    </section>
+-->
+    <section class="rentals" id="rentalssection" data-magellan-target="rentalssection">
+      <div class="rental-info">
+        <h1>RENTALS</h1>
+        <p>we have all had that experience of forgetting something at home when going away on vacation. don’t worry, we have you covered! we have rentals for hiking shoes, backpacks, and even cameras that you can use while supervised by our staff on a nature walk.</p>
+      </div>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-4">
+            <img src="img/shoe rentals.jpg" alt="clay-banks on unsplash">
+            <button class="shoe-rentals" href="#">shoes</button>
+          </div>
+          <div class="cell medium-4" alt="dushawn-jovic on unsplash">
+            <img src="img/backpack rentals.jpg">
+            <button class="backpack-rentals" href="#">backpacks</button>
+          </div>
+          <div class="cell medium-4">
+            <img src="img/camera rentals.jpg" alt="fotis-fotopoulos on unspash">
+            <button class="camera-rentals" href="#">cameras</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="activities" id="activitiesaroundtownsection" data-magellan-target="activitiesaroundtownsection">
+      <div class="activities-info">
+        <h1>ACTIVITIES AROUND TOWN</h1>
+        <p>we are located in bretton woods, new hampshire, which means there are many activities to do to fill your day if you want a break from the outdoors or just want to explore around town. we offer trail maps, trail suggestions, nature walk and trail tours, hiking 101, and maps for local restaurants nearby.</p>
+      </div>
+      </div>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-3">
+            <img src="img/maps.jpg" alt="nathan-dumlao on unsplash">
+            <h2>maps</h2>
+            <p>new to hiking? we have got you covered! we have maps of all the available trails near us that peak different people's interests. we even have photography designated trails.</p>
+          </div>
+          <div class="cell medium-3">
+            <img src="img/suggestions.jpg" alt="lisanto on unsplash">
+            <h2>suggestions</h2>
+            <p>these are trails suggested by our hikers. it includes the best one for photography and cinematology, easiest rated trail, hardest trail, and the trail favorite over all.</p>
+          </div>
+          <div class="cell medium-3">
+            <img src="img/tours and safety.jpg" alt="ivana-cajina on unspash">
+            <h2>tours and safety</h2>
+            <p>if it is your first time hiking we offer tours guided by our team. each tour guide is certified in first aid and CPR in case of emergencies. we have tours available for most of our trails. We also have safety classes for first time hikers.</p>
+          </div>
+          <div class="cell medium-3">
+            <img src="img/food and beverages.jpg" alt="nathan-dumlao on unspash">
+            <h2>food and beverages</h2>
+            <p>tired after a long day? we got your back! we have dining offered by us but we also have a list of recommended eateries and bars nearby.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recovery" id="recoveryandrelaxationsection" data-magellan-target="recoveryandrelaxationsection">
+      <div class="recovery-info">
+        <h1>RECOVERY AND RELAXATION</h1>
+        <p>a long day of outdoor activities can be tiring, we know. that is why we have many amenities for you to use to relax. we have an indoor pool, hot tub, sauna, ice baths, and massage therapy. along with that we also have an indoor gym for the rainy days.</p>
+      </div>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-4">
+            <img src="img/pool.jpg" alt="joanes-andueza on unsplash">
+            <h2 href="#">INDOOR POOL</h2>
+            <p>our indoor pool is open to all guests. it is a great way to relax after a long day of hiking.</p>
+          </div>
+          <div class="cell medium-4" alt="paje-victoria on unsplash">
+            <img src="img/hot tub.jpg">
+            <h2 href="#">HOT TUB</h2>
+            <p>long day and just want to relax but want something a little warmer? we have an indoor hot tub that is open to all guests too.</p>
+          </div>
+          <div class="cell medium-4">
+            <img src="img/sauna.jpg" alt="huum-Ruso on unspash">
+            <h2 href="#">SAUNA</h2>
+            <p>if that is not quite your cup of tea we also have an indoor sauna to fulfill your relaxation needs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-4">
+            <img src="img/ice bath.jpg" alt="samara-doole on unsplash">
+            <h2 href="#">ICE BATHS</h2>
+            <p>we also offer ice baths which are used to soothe muscles, reduce inflammation, improve breathing, and give your mood a major boost. it is a common way to help your body recover after a long day</p>
+          </div>
+          <div class="cell medium-4">
+            <img src="img/massage.jpg" alt="toa-heftiba on unsplash">
+            <h2 href="#">MASSAGE THERAPY</h2>
+            <p>still stressed? we also offer massage therapy to help you relax and recover after a long day.</p>
+          </div>
+          <div class="cell medium-4">
+            <img src="img/gym.jpg" alt="victor-freitas on unspash">
+            <h2 href="#">INDOOR GYM</h2>
+            <p>raining outside? or you just want to do something a little different? we have an indoor gym so the rain will not ruin your day.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel">
+      <div class="review-info">
+        <h1>FROM OUR CUSTOMERS</h1>
+        <p>we love hearing your feedback in what we can improve upon, so do not be afraid to leave us a review!</p>
+      </div>
+      <div class="orbit" role="region" aria-label="Permanent Exhibits" data-orbit> <!--data-options="animInFromLeft: orbit-slide-in; animInFromRight: orbit-slide-in; animOutToLeft: orbit-slide-out; animOutToRight:orbit-slide-out;" -->
+        <div class="orbit-wrapper">
+          <div class="orbit-controls">
+            <!--<span <button class="orbit-previous">class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+          -->
+          </div>
+          <ul class="orbit-container">
+            <li class="is-active orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image" data-interchange="[img/review 1 small.jpg, small][img/review 1.jpg, medium]" alt="photo by tim-marshall on Unsplash, captioned 'caught so many memories on film, i will treasure them forever!'' - verified customer"> 
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image" data-interchange="[img/review 2 small.jpg, small][img/review 2.jpg, medium]" alt="photo by tim-marshall on Unsplash, captioned 'the sauna felt so nice after such a long day of exploring' - verified customer"> 
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image" data-interchange="[img/review 3 small.jpg, small][img/review 3.jpg, medium]" alt="photo by tim-marshall on Unsplash, captioned 'so many natural beauties to see, would recommend!' - verified customer"> 
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image" data-interchange="[img/review 4 small.jpg, small][img/review 4.jpg, medium]" alt="photo by tim-marshall on Unsplash, captioned 'this place combines my two favorite hobbies!' - verified customer"> 
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image" data-interchange="[img/review 5 small.jpg, small][img/review 5.jpg, medium]" alt="photo by tim-marshall on Unsplash, captioned 'although it rained, i busied myself in the indoor gym' - verified customer"> 
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image" data-interchange="[img/review 6 small.jpg, small][img/review 6.jpg, medium]" alt="photo by tim-marshall on Unsplash, captioned 'definitely a vacation to remember!' - verified customer"> 
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <!--
+        <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0">
+            <span class="show-for-sr">First slide details.</span>
+            <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+          </button>
+          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+          <button data-slide="4"><span class="show-for-sr">Fifth slide details.</span></button>
+          <button data-slide="5"><span class="show-for-sr">Fifth slide details.</span></button>
+        </nav>
+      -->
+      </div>
+    </section>
+  <footer>
+    <section class="footer">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-3">
+            <h2>COMPANY</h2>
+            <ul class="company">
+              <li href="#"><mark>about us</mark></li>
+              <li href="#"><mark>partnerships</mark></li>
+              <li href="#"><mark>careers</mark></li>
+              <li href="#"><mark>blog</mark></li>
+            </ul>
+          </div>
+          <div class="cell medium-3">
+            <h2>ADDRESS</h2>
+            <ul class="address">
+                <li>35 wonderwood road</li>
+                <li>bretton woods</li>
+                <li>new hampshire</li>
+            </ul>
+          </div>
+          <div class="cell medium-3">
+            <h2>GET INVOLVED</h2>
+            <ul class="get-involved">
+              <li href="#"><mark>contact us</mark></li>
+              <li href="#"><mark>newsletter</mark></li>
+              <li href="#"><mark>leave a review</mark></li>
+            </ul>
+          </div>
+          <div class="cell medium-3">
+            <h2>SOCIALS</h2>
+            <ul class="socials">
+              <li href="#">
+                <mark><i class="fa-brands fa-twitter"></i> twitter</mark>
+              </li>
+              <li href="#">
+                <mark><i class="fa-brands fa-pinterest"></i> pinterest</mark>
+              </li>
+              <li href="#">
+                <mark><i class="fa-brands fa-tiktok"></i> tiktok</mark>
+              </li>
+              <li href="#">
+                <mark><i class="fa-brands fa-instagram"></i> instagram</mark>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <hr>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-6 align-left">
+            <ul class="copyright">
+              <li href="#">
+                  <i class="fa-regular fa-copyright"></i> the explorer 2022, all rights reserved.
+              </li>
+            </ul>
+          </div>
+          <div class="cell medium-2 align-right">
+            <ul class="privacy-policy">
+              <li href="#">privacy policy</li>
+            </ul>
+          </div>
+          <div class="cell medium-2 align-right">
+            <ul class="terms-and-conditions">
+              <li href="#">terms and conditions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+    
+
+
+    <!--
+    - datepicker widget (be careful when editing)
+    - displays two fields in two columns
+    - place this inside one of your page sections
+    -->
+
+    
+
+    <!--
+    - overlay window with spans used to show data from datepicker
+    - edit the grid however you would like to fit your layout, but
+    - do not delete the <span class="dpd1"></span> and <span class="dpd2"></span> tags, these are used to show the user the dates they selected
+    - this section can go anywhere in your code, but to keep things organized, place it after the section where you have your date picker form
+
+    <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x">
+        <div class="cell large-7">
+          <div class="overlay">
+            <h1>success</h1>
+            <h2>you have booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+-->
+    <!--
+
+    - do not delete anything below this line
+    - do not place any code below this line
+
+    -->
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
